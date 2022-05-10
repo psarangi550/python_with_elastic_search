@@ -1,0 +1,13 @@
+HOST http://127.0.0.1:9200
+Timeout 3000
+#Authorization "Bear xxx"
+Username "elastic"
+Password "pratik123"
+#GET /_search
+#{
+#  "query": {
+#    "match_all": {}
+#  }
+#}
+
+GET /_cat/indices
